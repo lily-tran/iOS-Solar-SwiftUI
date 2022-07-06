@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		2A7AB4272876266B006DF9F5 /* SolarSystemSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7AB4262876266B006DF9F5 /* SolarSystemSwiftUIApp.swift */; };
-		2A7AB4292876266B006DF9F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7AB4282876266B006DF9F5 /* ContentView.swift */; };
 		2A7AB42B2876266D006DF9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AB42A2876266D006DF9F5 /* Assets.xcassets */; };
 		2A7AB42E2876266D006DF9F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AB42D2876266D006DF9F5 /* Preview Assets.xcassets */; };
+		2A7AB435287628FA006DF9F5 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7AB434287628FA006DF9F5 /* Planet.swift */; };
+		2A7AB43728762935006DF9F5 /* PlanetDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7AB43628762935006DF9F5 /* PlanetDataStore.swift */; };
+		2A7AB43B28762BC3006DF9F5 /* PlanetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7AB43A28762BC3006DF9F5 /* PlanetListView.swift */; };
+		2AF125E62876380F0032BC1A /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF125E52876380F0032BC1A /* PlanetDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A7AB4232876266B006DF9F5 /* SolarSystemSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystemSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7AB4262876266B006DF9F5 /* SolarSystemSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemSwiftUIApp.swift; sourceTree = "<group>"; };
-		2A7AB4282876266B006DF9F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A7AB42A2876266D006DF9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A7AB42D2876266D006DF9F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A7AB434287628FA006DF9F5 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		2A7AB43628762935006DF9F5 /* PlanetDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDataStore.swift; sourceTree = "<group>"; };
+		2A7AB43A28762BC3006DF9F5 /* PlanetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListView.swift; sourceTree = "<group>"; };
+		2AF125E52876380F0032BC1A /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				2A7AB4262876266B006DF9F5 /* SolarSystemSwiftUIApp.swift */,
-				2A7AB4282876266B006DF9F5 /* ContentView.swift */,
 				2A7AB42A2876266D006DF9F5 /* Assets.xcassets */,
 				2A7AB42C2876266D006DF9F5 /* Preview Content */,
+				2A7AB434287628FA006DF9F5 /* Planet.swift */,
+				2A7AB43628762935006DF9F5 /* PlanetDataStore.swift */,
+				2A7AB43A28762BC3006DF9F5 /* PlanetListView.swift */,
+				2AF125E52876380F0032BC1A /* PlanetDetailView.swift */,
 			);
 			path = SolarSystemSwiftUI;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7AB4292876266B006DF9F5 /* ContentView.swift in Sources */,
+				2A7AB435287628FA006DF9F5 /* Planet.swift in Sources */,
 				2A7AB4272876266B006DF9F5 /* SolarSystemSwiftUIApp.swift in Sources */,
+				2A7AB43728762935006DF9F5 /* PlanetDataStore.swift in Sources */,
+				2AF125E62876380F0032BC1A /* PlanetDetailView.swift in Sources */,
+				2A7AB43B28762BC3006DF9F5 /* PlanetListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
